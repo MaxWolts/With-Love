@@ -1,0 +1,63 @@
+.StepsLayout {
+    /* min-height: 30rem; */
+  background-color: rgba(134, 133, 132, 0.534);
+  width: 100%;
+  max-width: 400px;
+  padding: 16px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-radius: 4px;
+  backdrop-filter: blur(5px);
+
+  /* border: 2px solid #f9f9f97c; */
+ 
+}
+.StepsLayout p {
+  color: #f9f9f9;
+  font-size: 20px;
+}
+.buttons {
+  display: flex;
+}
+.Next__button, .Cancel__button {
+  width: 170px;
+  height: 40px;
+  margin: 16px;
+  font-size: 26px;
+  color: #f9f9f9;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 111, 58);
+  box-shadow: inset 0 0 1px 2px #f9f9f93f;
+  cursor: pointer;
+}
+
+.Next__button {
+  background-color: #cd8d51;
+}
+.Cancel__button {
+  background-color: #202020;
+}
+.Next__button:disabled {
+  border: 2px solid rgb(172, 144, 118);
+  background-color: #cd8d5153;
+}
+
+.Cancel__button:active {
+  border: 2px solid rgb(219, 150, 89);
+  background-color: #393939;
+}
+
+select{
+	display: inline-block;
+	width: 90%;
+	cursor: pointer;
+  padding: 7px 10px;
+  height: 40px;
+  outline: none;
+	border-radius: 5px;
+	background: #f9f9f9f9;
+	border: 1px solid rgb(172, 111, 58);
+  border-radius: 5px;
+}
+ 
+ 

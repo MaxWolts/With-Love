@@ -1,0 +1,9 @@
+.Title {
+  display: flex;
+  align-items: center;
+  color: #f9f9f9;
+  border: 2px solid #f9f9f9;
+  font-size: 30px;
+  width: 110px;
+  height: 110px;
+}
