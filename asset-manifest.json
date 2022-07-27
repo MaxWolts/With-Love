@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MaxWolts/With-Love/static/css/main.823f5428.css",
-    "main.js": "/MaxWolts/With-Love/static/js/main.1a5cac75.js",
-    "static/js/787.b9518c06.chunk.js": "/MaxWolts/With-Love/static/js/787.b9518c06.chunk.js",
-    "static/media/pexels-afta-putta-gunawan-683039.jpg": "/MaxWolts/With-Love/static/media/pexels-afta-putta-gunawan-683039.b73fb47edb7b7b5bd403.jpg",
-    "index.html": "/MaxWolts/With-Love/index.html",
-    "main.823f5428.css.map": "/MaxWolts/With-Love/static/css/main.823f5428.css.map",
-    "main.1a5cac75.js.map": "/MaxWolts/With-Love/static/js/main.1a5cac75.js.map",
-    "787.b9518c06.chunk.js.map": "/MaxWolts/With-Love/static/js/787.b9518c06.chunk.js.map"
+    "main.css": "/With-Love/static/css/main.6f6837c0.css",
+    "main.js": "/With-Love/static/js/main.d6769449.js",
+    "static/js/787.b9518c06.chunk.js": "/With-Love/static/js/787.b9518c06.chunk.js",
+    "static/media/pexels-afta-putta-gunawan-683039.jpg": "/With-Love/static/media/pexels-afta-putta-gunawan-683039.b73fb47edb7b7b5bd403.jpg",
+    "index.html": "/With-Love/index.html",
+    "main.6f6837c0.css.map": "/With-Love/static/css/main.6f6837c0.css.map",
+    "main.d6769449.js.map": "/With-Love/static/js/main.d6769449.js.map",
+    "787.b9518c06.chunk.js.map": "/With-Love/static/js/787.b9518c06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.823f5428.css",
-    "static/js/main.1a5cac75.js"
+    "static/css/main.6f6837c0.css",
+    "static/js/main.d6769449.js"
   ]
 }
