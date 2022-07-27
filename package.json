@@ -1,5 +1,9 @@
 {
-  "homepage": "https://github.com/MaxWolts/With-Love",
+  "homepage": "https://github.com/MaxWolts/With-Love/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxWolts/With-Love.git"
+  },
   "name": "with-love",
   "version": "0.1.0",
   "private": true,
