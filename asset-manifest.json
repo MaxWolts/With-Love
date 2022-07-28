@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/With-Love/static/css/main.6f6837c0.css",
-    "main.js": "/With-Love/static/js/main.d6769449.js",
+    "main.js": "/With-Love/static/js/main.78c1da1b.js",
     "static/js/787.b9518c06.chunk.js": "/With-Love/static/js/787.b9518c06.chunk.js",
     "static/media/pexels-afta-putta-gunawan-683039.jpg": "/With-Love/static/media/pexels-afta-putta-gunawan-683039.b73fb47edb7b7b5bd403.jpg",
     "index.html": "/With-Love/index.html",
     "main.6f6837c0.css.map": "/With-Love/static/css/main.6f6837c0.css.map",
-    "main.d6769449.js.map": "/With-Love/static/js/main.d6769449.js.map",
+    "main.78c1da1b.js.map": "/With-Love/static/js/main.78c1da1b.js.map",
     "787.b9518c06.chunk.js.map": "/With-Love/static/js/787.b9518c06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f6837c0.css",
-    "static/js/main.d6769449.js"
+    "static/js/main.78c1da1b.js"
   ]
 }
