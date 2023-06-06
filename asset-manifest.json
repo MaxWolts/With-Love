@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/With-Love/static/css/main.6f6837c0.css",
-    "main.js": "/With-Love/static/js/main.78c1da1b.js",
+    "main.css": "/With-Love/static/css/main.34e12b8f.css",
+    "main.js": "/With-Love/static/js/main.00773a0a.js",
     "static/js/787.b9518c06.chunk.js": "/With-Love/static/js/787.b9518c06.chunk.js",
-    "static/media/pexels-afta-putta-gunawan-683039.jpg": "/With-Love/static/media/pexels-afta-putta-gunawan-683039.b73fb47edb7b7b5bd403.jpg",
+    "static/media/photo-1551499779-ee50f1aa4d25.webp": "/With-Love/static/media/photo-1551499779-ee50f1aa4d25.a4161eed20304b79acbe.webp",
     "index.html": "/With-Love/index.html",
-    "main.6f6837c0.css.map": "/With-Love/static/css/main.6f6837c0.css.map",
-    "main.78c1da1b.js.map": "/With-Love/static/js/main.78c1da1b.js.map",
+    "main.34e12b8f.css.map": "/With-Love/static/css/main.34e12b8f.css.map",
+    "main.00773a0a.js.map": "/With-Love/static/js/main.00773a0a.js.map",
     "787.b9518c06.chunk.js.map": "/With-Love/static/js/787.b9518c06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f6837c0.css",
-    "static/js/main.78c1da1b.js"
+    "static/css/main.34e12b8f.css",
+    "static/js/main.00773a0a.js"
   ]
 }
