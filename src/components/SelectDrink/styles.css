@@ -9,7 +9,7 @@
 .CoffeeButton button, .TeaButton button {
   height: 40px;
   width: 170px;
-  font-size: 30px;
+  /* font-size: 30px; */
   color: #f9f9f9;
   border-radius: 5px;
   background-color: #55391f;

@@ -12,7 +12,9 @@ export const BaseLayout = () => {
 
   return( <div className="BaseLayout">
     <Title/>
-    <StepsLayout state={ state } send={ send }/>
+    <div className="Steps__container">
+      <StepsLayout state={ state } send={ send }/>
+    </div>
     
   </div> )
 }

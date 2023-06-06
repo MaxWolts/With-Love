@@ -14,10 +14,20 @@ const orderingMachine = createMachine({
     initial: {
       on: {
         CONTINUE: {
+          target:  "drink",
+        }
+      },
+    },
+    drink: {
+      on: {
+        CONTINUE: {
           target:  "selection",
           actions: assign({
             drink: (context, event) => event.drink
           })
+        },
+        BACK: {
+          target: "initial",
         }
       },
     },
@@ -30,7 +40,7 @@ const orderingMachine = createMachine({
           })
         },
         BACK: {
-          target: "initial",
+          target: "drink",
           actions: assign({
             drink: ""
           })

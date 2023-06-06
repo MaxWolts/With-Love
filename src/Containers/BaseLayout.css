@@ -1,15 +1,14 @@
 .BaseLayout {
   background-position: center;
-  background-color: #fed6e3;
-  background-image: url('../../public/images/pexels-afta-putta-gunawan-683039.jpg');
+  background-color: #E199A6;
+  /* background-image: url('../../public/images/pexels-afta-putta-gunawan-683039.jpg'); */
   background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px;
-  box-sizing: border-box;
+  padding: 2rem;
 }
 h2 {
   font-size: 30px;
@@ -18,6 +17,19 @@ h2 {
 select {
   height: 40px;
   min-width: 150px;
-  font-size: 20px;
   background-color: #f9f9f9;
 }
+.Steps__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 1280px;
+  height: 70vh;
+  padding: 1rem;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://images.unsplash.com/photo-1553085119-ec8e319f008b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2100&q=80');
+}
+ 

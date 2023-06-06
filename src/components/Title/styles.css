@@ -3,7 +3,7 @@
   align-items: center;
   color: #f9f9f9;
   border: 2px solid #f9f9f9;
-  font-size: 30px;
-  width: 110px;
-  height: 110px;
+  width: min-content;
+  padding: 0 .7rem;
+  margin: 0 0 1rem;
 }
