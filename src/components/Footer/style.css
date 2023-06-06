@@ -1,0 +1,7 @@
+.Footer {
+    display: grid;
+    justify-items: center;
+    max-width: 1280px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}

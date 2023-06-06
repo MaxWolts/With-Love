@@ -32,7 +32,7 @@
   margin: 0;
 }
 .Next__button:active  {
-  background-color: palevioletred;
+  background-color: #e199a6;
 }
 .Next__button, .Cancel__button {
   width: 170px;

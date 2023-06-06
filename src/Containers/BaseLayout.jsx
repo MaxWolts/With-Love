@@ -3,6 +3,7 @@ import './BaseLayout.css';
 import { Title } from "../components/Title/Title";
 import { StepsLayout } from "./StepsLayout";
 import { useMachine } from "@xstate/react";
+import { Footer } from "../components/Footer/Footer";
 import  orderingMachine  from "../Machines/orderingMachine";
 
 export const BaseLayout = () => {
@@ -15,6 +16,5 @@ export const BaseLayout = () => {
     <div className="Steps__container">
       <StepsLayout state={ state } send={ send }/>
     </div>
-    
   </div> )
 }

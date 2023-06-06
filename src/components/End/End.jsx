@@ -9,7 +9,7 @@ export const End = ( { send, context } ) => {
     <div className="End">
       <h2>Thanks for your order!</h2>
       <p>Your <strong>{context.drinkType} {context.size}</strong> will be shortly.</p>
-      <p>Your order number: {num}</p>
+      <p> <strong>Your order number: {num}</strong> </p>
       <button className="Next__button" onClick={ goToInitial }> Finish </button>
     </div>
   )
