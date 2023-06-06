@@ -22,7 +22,9 @@ export const TypeOrder = ({ send }) => {
 
       <div className="buttons">
         <button className="Cancel__button" onClick={ goToBack }>Cancel</button>
-        <button className="Next__button" disabled={ typeOrder === ''} onClick={ goToEnd }>End</button>
+        <button className="Next__button" disabled={ typeOrder === ''} onClick={ goToEnd }>
+          <p>End</p>
+        </button>
       </div>
     </div>
   )

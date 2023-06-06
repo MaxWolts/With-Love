@@ -12,17 +12,25 @@
   /* font-size: 30px; */
   color: #f9f9f9;
   border-radius: 5px;
-  background-color: #55391f;
+  background-color: #da9351;
   border: none;
   cursor: pointer;
 }
 
 .TeaButton button {
-  background-color: #a83f1e;
+  background-color: #fc794f;;
 }
 .CoffeeButton button:active {
   background-color: #7b5838;
 }
 .TeaButton button:active {
   background-color: #bb5f43;
+}
+.Select-drink {
+  display: grid;
+  justify-items: center;
+}
+.Select-drink__drinks {
+  display: flex;
+  gap: 1rem;
 }

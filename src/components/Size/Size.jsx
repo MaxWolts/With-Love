@@ -23,7 +23,9 @@ export const Size = ({ send }) => {
       
       <div className="buttons">
         <button className="Cancel__button" onClick={ goToBack }>Cancel</button>
-        <button className="Next__button" disabled={ selectedSize === ''} onClick={ goToOrderType }>Next</button>
+        <button className="Next__button" disabled={ selectedSize === ''} onClick={ goToOrderType }>
+          <p>Next</p>
+        </button>
       </div>
     </div>
   )

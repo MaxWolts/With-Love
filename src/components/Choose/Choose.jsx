@@ -40,7 +40,9 @@ export const Choose = ({ send, drink, context }) => {
       }
       <div className="buttons">
         <button className="Cancel__button" onClick={ goToBack }>Cancel</button>
-        <button className="Next__button" disabled={ drinkType === ''} onClick={ goToSize }>Next</button>
+        <button className="Next__button" disabled={ drinkType === ''} onClick={ goToSize }>
+          <p>Next</p>
+        </button>
       </div>
       
     </div>

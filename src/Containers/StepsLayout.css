@@ -1,50 +1,69 @@
 .StepsLayout {
-    /* min-height: 30rem; */
-  background-color: rgba(134, 133, 132, 0.534);
   width: 100%;
   max-width: 400px;
   padding: 16px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   border-radius: 4px;
-  backdrop-filter: blur(5px);
-
-  /* border: 2px solid #f9f9f97c; */
+  background: rgba(238, 237, 237, 0.48);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5.4px);
+  border: 1px solid rgba(215, 51, 168, 0.44);
  
 }
 .StepsLayout p {
-  color: #f9f9f9;
-  /* font-size: 20px; */
+  color: #161616;
 }
 .buttons {
+  position: relative;
   display: flex;
+}
+.Next__button {
+  position: relative;
+  overflow: hidden;
+}
+
+.Next__button p {
+  color: #161616;
+  z-index: 1;
+  position: relative;
+  margin: 0;
+}
+.Next__button:active  {
+  background-color: palevioletred;
 }
 .Next__button, .Cancel__button {
   width: 170px;
   height: 40px;
   margin: 16px;
-  /* font-size: 26px; */
-  color: #f9f9f9;
+  color: #161616;
   border-radius: 5px;
-  border: 2px solid rgb(172, 111, 58);
+  border: 2px solid rgb(35, 35, 35);
   box-shadow: inset 0 0 1px 2px #f9f9f93f;
   cursor: pointer;
 }
 
 .Next__button {
-  background-color: #cd8d51;
+  background-color: #f0f0f0;
 }
 .Cancel__button {
-  background-color: #202020;
+  background-color: #161616;
+  color: #f0f0f0;
 }
 .Next__button:disabled {
-  border: 2px solid rgb(172, 144, 118);
-  background-color: #cd8d5153;
+  border: 2px solid rgb(63, 63, 63);
+  background-color: #f1f1f112;
+}
+
+.Next__button:disabled:hover p {
+  color: #161616;
 }
 
 .Cancel__button:active {
-  border: 2px solid rgb(219, 150, 89);
-  background-color: #393939;
+  border: 2px solid rgb(33, 32, 32);
+  background-color: #e199a6;
 }
 
 select{
@@ -56,7 +75,6 @@ select{
   outline: none;
 	border-radius: 5px;
 	background: #f9f9f9f9;
-	border: 1px solid rgb(172, 111, 58);
   border-radius: 5px;
 }
 

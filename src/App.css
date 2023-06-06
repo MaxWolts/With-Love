@@ -32,6 +32,15 @@
   color: #61dafb;
 }
 
+select {
+  height: fit-content;
+  font-size: 1.5rem;
+  border: 2px solid black;
+}
+h2 {
+  color: #161616;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
